@@ -49,7 +49,18 @@ def get_image():
 
 
     return jsonify({"success":True,"url":image_list[0]})
+
+@app.route('/get_title')
+def get_title():
+    title_list = []
+    jsondata = json.loads(open('showerthoughts.json', 'r').read())
+    for child in jsondata['data']['children']:
+        title_list.append(child['data']['title'])
     
+    random.shuffle(title_list)
+
+
+    return jsonify({"success":True,"title":title_list[0]})
     
 
 
