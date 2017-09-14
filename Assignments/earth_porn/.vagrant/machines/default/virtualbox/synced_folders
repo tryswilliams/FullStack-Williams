@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www":{"guestpath":"/var/www","hostpath":"C:/Users/tryswilliams/Documents/GitHub/FullStack-Williams/Assignments/earth_porn/www","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/tryswilliams/Documents/GitHub/FullStack-Williams/Assignments/earth_porn","disabled":false,"__vagrantfile":true}}}
